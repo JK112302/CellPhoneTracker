@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/blue_grey_50"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.registeruser.EnterPhoneNumber">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:drawableLeft="@drawable/ic_telephone"
+        android:background="@drawable/round_bg_edittext"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="  Enter contacts"
+        ></TextView>
+
+        
+
+    <EditText
+        android:inputType="number"
+        android:textSize="@dimen/_18sdp"
+        android:fontFamily="sans-serif"
+        android:hint="  1.Enter Number "
+        android:textColor="@color/darkGray"
+        android:background="@drawable/transulant_bg"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/ed_1"
+        android:layout_marginTop="@dimen/margin_enter_number"
+        android:layout_width="match_parent"
+        ></EditText>
+        <EditText
+            android:inputType="number"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="sans-serif"
+            android:hint="  2.Enter Number "
+            android:textColor="@color/darkGray"
+            android:background="@drawable/transulant_bg"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/ed_2"
+            android:layout_marginTop="@dimen/margin_enter_number"
+            android:layout_width="match_parent"
+            ></EditText>
+        <EditText
+            android:inputType="number"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="sans-serif"
+            android:hint="  3.Enter Number "
+            android:textColor="@color/darkGray"
+            android:background="@drawable/transulant_bg"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/ed_3"
+            android:layout_marginTop="@dimen/margin_enter_number"
+            android:layout_width="match_parent"
+            ></EditText>
+        <EditText
+            android:inputType="number"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="sans-serif"
+            android:hint="  4.Enter Number "
+            android:textColor="@color/darkGray"
+            android:background="@drawable/transulant_bg"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/ed_4"
+            android:layout_marginTop="@dimen/margin_enter_number"
+            android:layout_width="match_parent"
+            ></EditText><EditText
+        android:textSize="@dimen/_18sdp"
+        android:fontFamily="sans-serif"
+        android:hint="  5.Enter Number "
+            android:inputType="number"
+        android:textColor="@color/darkGray"
+        android:background="@drawable/transulant_bg"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/ed_5"
+        android:layout_marginTop="@dimen/margin_enter_number"
+        android:layout_width="match_parent"
+        ></EditText>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/save_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@color/red_300"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:text="Save Numbers"
+        ></Button>
+</RelativeLayout>
